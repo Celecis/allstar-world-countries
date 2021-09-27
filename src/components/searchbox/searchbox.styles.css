@@ -1,0 +1,68 @@
+.search,
+.select {
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    border-radius: 10px;
+    font-family: inherit;
+    letter-spacing: 0.1x;
+    font-size: 14px;
+}
+
+.search_home .search,
+.search_home .select {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c1bfd9;
+}
+
+.search_home .search::placeholder,
+.search_home .select::placeholder {
+    color: white;
+}
+
+.search_home .search {
+    min-width: 280px;
+    color: white;
+}
+
+.search_home .select {
+    min-width: 200px;
+    color: white;
+}
+
+.select-region {
+    position: relative;
+}
+
+.select-region select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* IE11 hide native button (thanks Matt!) */
+select::-ms-expand {
+    display: none;
+}
+
+.select-region:after {
+    content: '\f078';
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #8070d4;
+    right: 15px;
+    top: 4px;
+    height: 34px;
+    padding: 15px 0px 0px 8px;
+    position: absolute;
+    pointer-events: none;
+}
+
+option:hover {
+    color: white !important;
+    background: #8070d4 repeat url("https://www.dropbox.com/s/sy5eddzjqv53mkm/8070d4.jpg?dl=0");
+}
+
+option:checked {
+    color: white !important;
+    background: #8070d4 repeat url("https://www.dropbox.com/s/sy5eddzjqv53mkm/8070d4.jpg?dl=0");
+}

@@ -1,0 +1,32 @@
+.country___container {
+    display: grid;
+    max-width: 1080px;
+    margin: 0 auto;
+    height: calc(100vh - 108px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details___container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 48% 50%;
+    grid-gap: 2%;
+    background-color: white;
+    padding: 40px;
+}
+
+.flag___container {
+    display: flex;
+}
+
+.info__container h3 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #3e3084;
+}
+
+.bolder {
+    font-weight: 700;
+}

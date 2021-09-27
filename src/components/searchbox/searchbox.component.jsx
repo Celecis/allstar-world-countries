@@ -1,26 +1,9 @@
 import React from "react";
+import "./searchbox.styles.css";
 
-const SearchBox = ({ placeholder, handleSearch, handleRegion }) => (
-  <div className="select-box">
-    <div className="select-region">
-      <p>Select your Region:</p>
-      <select
-        name="select"
-        id="select"
-        className="select"
-        onChange={handleRegion}
-      >
-        <option values="All">All</option>
-        <option values="Africa">Africa</option>
-        <option values="Americas">Americas</option>
-        <option values="Asia">Asia</option>
-        <option values="Europe">Europe</option>
-        <option values="Oceania">Oceania</option>
-      </select>
-    </div>
-
+const SearchBox = ({ placeholder, handleSearch }) => {
+  return (
     <div className="search-box">
-      <p>Search your Country:</p>
       <input
         className="search"
         type="search"
@@ -28,7 +11,7 @@ const SearchBox = ({ placeholder, handleSearch, handleRegion }) => (
         onChange={handleSearch}
       />
     </div>
-  </div>
-);
+  );
+};
 
 export default SearchBox;

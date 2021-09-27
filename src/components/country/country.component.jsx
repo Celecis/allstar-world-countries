@@ -2,40 +2,41 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
+import "./country.styles.css";
+
 const Country = (props) => {
-  const {
-    alpha3Code,
-    name,
-    flag,
-    region,
-    subregion,
-    nativeName,
-    capital,
-    population,
-    currencies,
-  } = props.country;
+  const { name, flags, region, continent, nativeName, alpha3Code } =
+    props.country;
 
   return (
-    <div id={alpha3Code} className="country-container">
-      <h3>{name}</h3>
-      <div className="flag-container">
-        <img alt="country" src={flag} />
-      </div>
-      <div className="info-container">
-        <p>Region: {region}</p>
-        <p>Sub-Region: {subregion}</p>
-        <p>Native Name: {nativeName}</p>
-        <p>Capital: {capital}</p>
-        <p>Population: {population.toLocaleString("pt-PT")}</p>
-        <p>
-          Currencies:{" "}
-          {currencies
-            .filter((c) => c.name)
-            .map((c) => `${c.name} (${c.code})`)
-            .join(", ")}
-        </p>
-      </div>
-      <Link to={`/${props.country.alpha3Code}`}>Learn More</Link>
+    <div id={alpha3Code} key={alpha3Code}>
+      <Link
+        to={{ pathname: `/countries/${alpha3Code}`, state: props.country }}
+        key={alpha3Code}
+      >
+        <div className="flag_container">
+          <img alt={`country flag for: ${name}`} src={flags[1]} />
+        </div>
+        <div className="info__container">
+          <h3>{name}</h3>
+          <p>
+            <span className="bolder">Continent: </span>
+            {continent
+              ? `${continent}`
+              : `No Continent registered for this Country`}
+          </p>
+          <p>
+            <span className="bolder">Region: </span>
+            {region
+              ? `${region.toLocaleString()}`
+              : `No Region registered for this Country`}
+          </p>
+          <p>
+            <span className="bolder">Native Name: </span>
+            {nativeName}
+          </p>
+        </div>
+      </Link>
     </div>
   );
 };
