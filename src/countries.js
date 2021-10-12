@@ -53,8 +53,8 @@ const API_DATA = [
       hu: "Afganisztán",
     },
     flags: [
-      "https://restcountries.com/data/afg.svg",
-      "https://restcountries.com/data/png/afg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg/800px-Flag_of_Afghanistan_%282013%E2%80%932021%29.svg.png",
     ],
     regionalBlocs: [
       {
@@ -107,8 +107,8 @@ const API_DATA = [
       hu: "Albánia",
     },
     flags: [
-      "https://restcountries.com/data/alb.svg",
-      "https://restcountries.com/data/png/alb.png",
+      "https://pt.wikipedia.org/wiki/Alb%C3%A2nia#/media/Ficheiro:Flag_of_Albania.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/1280px-Flag_of_Albania.svg.png",
     ],
     regionalBlocs: [
       { acronym: "CEFTA", name: "Central European Free Trade Agreement" },
@@ -158,8 +158,8 @@ const API_DATA = [
       hu: "Algéria",
     },
     flags: [
-      "https://restcountries.com/data/dza.svg",
-      "https://restcountries.com/data/png/dza.png",
+      "https://en.wikipedia.org/wiki/Flag_of_Algeria#/media/File:Flag_of_Algeria.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/1280px-Flag_of_Algeria.svg.png",
     ],
     regionalBlocs: [
       {
@@ -232,8 +232,8 @@ const API_DATA = [
       hu: "Amerikai Szamoa",
     },
     flags: [
-      "https://restcountries.com/data/asm.svg",
-      "https://restcountries.com/data/png/asm.png",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e4/Flag_of_American_Samoa_%28Pantone%29.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_American_Samoa_%28Pantone%29.svg/800px-Flag_of_American_Samoa_%28Pantone%29.svg.png",
     ],
     cioc: "ASA",
     independent: false,
@@ -279,8 +279,8 @@ const API_DATA = [
       hu: "Andorra",
     },
     flags: [
-      "https://restcountries.com/data/and.svg",
-      "https://restcountries.com/data/png/and.png",
+      "https://en.wikipedia.org/wiki/Flag_of_Andorra#/media/File:Flag_of_Andorra.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/1280px-Flag_of_Andorra.svg.png",
     ],
     cioc: "AND",
     independent: true,
@@ -327,8 +327,8 @@ const API_DATA = [
       hu: "Angola",
     },
     flags: [
-      "https://restcountries.com/data/ago.svg",
-      "https://restcountries.com/data/png/ago.png",
+      "https://pt.wikipedia.org/wiki/Bandeira_de_Angola#/media/Ficheiro:Flag_of_Angola.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/1280px-Flag_of_Angola.svg.png",
     ],
     regionalBlocs: [
       {
@@ -386,8 +386,8 @@ const API_DATA = [
       hu: "Anguilla",
     },
     flags: [
-      "https://restcountries.com/data/aia.svg",
-      "https://restcountries.com/data/png/aia.png",
+      "https://en.wikipedia.org/wiki/Flag_of_Anguilla#/media/File:Flag_of_Anguilla.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Anguilla.svg/1920px-Flag_of_Anguilla.svg.png",
     ],
     independent: false,
   },
@@ -443,7 +443,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/ata.svg",
-      "https://restcountries.com/data/png/ata.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg/744px-Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg.png",
     ],
     independent: false,
   },
@@ -488,7 +488,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/atg.svg",
-      "https://restcountries.com/data/png/atg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/690px-Flag_of_Antigua_and_Barbuda.svg.png",
     ],
     regionalBlocs: [
       {
@@ -553,7 +553,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/arg.svg",
-      "https://restcountries.com/data/png/arg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/800px-Flag_of_Argentina.svg.png",
     ],
     regionalBlocs: [
       {
@@ -619,7 +619,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/arm.svg",
-      "https://restcountries.com/data/png/arm.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/800px-Flag_of_Armenia.svg.png",
     ],
     regionalBlocs: [
       {
@@ -678,7 +678,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/abw.svg",
-      "https://restcountries.com/data/png/abw.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Aruba.svg/800px-Flag_of_Aruba.svg.png",
     ],
     cioc: "ARU",
     independent: true,
@@ -734,7 +734,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/aus.svg",
-      "https://restcountries.com/data/png/aus.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/800px-Flag_of_Australia_%28converted%29.svg.png",
     ],
     cioc: "AUS",
     independent: true,
@@ -782,7 +782,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/aut.svg",
-      "https://restcountries.com/data/png/aut.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/1920px-Flag_of_Austria.svg.png",
     ],
     regionalBlocs: [{ acronym: "EU", name: "European Union" }],
     cioc: "AUT",
@@ -831,7 +831,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/aze.svg",
-      "https://restcountries.com/data/png/aze.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/1920px-Flag_of_Azerbaijan.svg.png",
     ],
     cioc: "AZE",
     independent: false,
@@ -877,7 +877,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bhs.svg",
-      "https://restcountries.com/data/png/bhs.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Bahamas_Flag.svg/512px-Bahamas_Flag.svg.png",
     ],
     regionalBlocs: [
       {
@@ -934,7 +934,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bhr.svg",
-      "https://restcountries.com/data/png/bhr.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Bahrain_%28bordered%29.svg/800px-Flag_of_Bahrain_%28bordered%29.svg.png",
     ],
     regionalBlocs: [
       {
@@ -997,7 +997,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bgd.svg",
-      "https://restcountries.com/data/png/bgd.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/800px-Flag_of_Bangladesh.svg.png",
     ],
     regionalBlocs: [
       {
@@ -1049,7 +1049,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/brb.svg",
-      "https://restcountries.com/data/png/brb.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/800px-Flag_of_Barbados.svg.png",
     ],
     regionalBlocs: [
       {
@@ -1125,7 +1125,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/blr.svg",
-      "https://restcountries.com/data/png/blr.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/800px-Flag_of_Belarus.svg.png",
     ],
     regionalBlocs: [
       {
@@ -1202,7 +1202,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bel.svg",
-      "https://restcountries.com/data/png/bel.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/692px-Flag_of_Belgium.svg.png",
     ],
     regionalBlocs: [{ acronym: "EU", name: "European Union" }],
     cioc: "BEL",
@@ -1257,7 +1257,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/blz.svg",
-      "https://restcountries.com/data/png/blz.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/1920px-Flag_of_Belize.svg.png",
     ],
     regionalBlocs: [
       {
@@ -1321,7 +1321,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/ben.svg",
-      "https://restcountries.com/data/png/ben.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/800px-Flag_of_Benin.svg.png",
     ],
     regionalBlocs: [
       {
@@ -1385,7 +1385,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bmu.svg",
-      "https://restcountries.com/data/png/bmu.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bermuda.svg/800px-Flag_of_Bermuda.svg.png",
     ],
     cioc: "BER",
     independent: false,
@@ -1436,7 +1436,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/btn.svg",
-      "https://restcountries.com/data/png/btn.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/800px-Flag_of_Bhutan.svg.png",
     ],
     regionalBlocs: [
       {
@@ -1511,7 +1511,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bol.svg",
-      "https://restcountries.com/data/png/bol.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bandera_de_Bolivia_%28Estado%29.svg/1280px-Bandera_de_Bolivia_%28Estado%29.svg.png",
     ],
     regionalBlocs: [
       {
@@ -1566,7 +1566,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bes.svg",
-      "https://restcountries.com/data/png/bes.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Flag_of_Bonaire.svg/1280px-Flag_of_Bonaire.svg.png",
     ],
     independent: true,
   },
@@ -1631,7 +1631,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bih.svg",
-      "https://restcountries.com/data/png/bih.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/800px-Flag_of_Bosnia_and_Herzegovina.svg.png",
     ],
     regionalBlocs: [
       { acronym: "CEFTA", name: "Central European Free Trade Agreement" },
@@ -1688,7 +1688,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bwa.svg",
-      "https://restcountries.com/data/png/bwa.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/800px-Flag_of_Botswana.svg.png",
     ],
     regionalBlocs: [
       {
@@ -1757,7 +1757,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bvt.svg",
-      "https://restcountries.com/data/png/bvt.png",
+      "https://flagpedia.net/data/flags/w580/bv.png",
     ],
     independent: false,
   },
@@ -1821,7 +1821,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bra.svg",
-      "https://restcountries.com/data/png/bra.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/720px-Flag_of_Brazil.svg.png",
     ],
     regionalBlocs: [
       {
@@ -1880,7 +1880,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/iot.svg",
-      "https://restcountries.com/data/png/iot.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg/1920px-Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg.png",
     ],
     regionalBlocs: [
       {
@@ -1935,7 +1935,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/umi.svg",
-      "https://restcountries.com/data/png/umi.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1920px-Flag_of_the_United_States.svg.png",
     ],
     independent: false,
   },
@@ -1980,7 +1980,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/vgb.svg",
-      "https://restcountries.com/data/png/vgb.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_British_Virgin_Islands.svg/800px-Flag_of_the_British_Virgin_Islands.svg.png",
     ],
     cioc: "IVB",
     independent: false,
@@ -2030,7 +2030,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/vir.svg",
-      "https://restcountries.com/data/png/vir.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/800px-Flag_of_the_United_States_Virgin_Islands.svg.png",
     ],
     cioc: "ISV",
     independent: false,
@@ -2080,7 +2080,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/brn.svg",
-      "https://restcountries.com/data/png/brn.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/1920px-Flag_of_Brunei.svg.png",
     ],
     regionalBlocs: [
       { acronym: "ASEAN", name: "Association of Southeast Asian Nations" },
@@ -2131,7 +2131,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bgr.svg",
-      "https://restcountries.com/data/png/bgr.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/800px-Flag_of_Bulgaria.svg.png",
     ],
     regionalBlocs: [{ acronym: "EU", name: "European Union" }],
     cioc: "BUL",
@@ -2186,7 +2186,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bfa.svg",
-      "https://restcountries.com/data/png/bfa.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/800px-Flag_of_Burkina_Faso.svg.png",
     ],
     regionalBlocs: [
       {
@@ -2258,7 +2258,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/bdi.svg",
-      "https://restcountries.com/data/png/bdi.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/800px-Flag_of_Burundi.svg.png",
     ],
     regionalBlocs: [
       {
@@ -5784,7 +5784,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/hti.svg",
-      "https://restcountries.com/data/png/hti.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Haiti_%281859%E2%80%931964%29.svg/800px-Flag_of_Haiti_%281859%E2%80%931964%29.svg.png",
     ],
     regionalBlocs: [
       {
@@ -5838,7 +5838,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/hmd.svg",
-      "https://restcountries.com/data/png/hmd.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1920px-Flag_of_Australia_%28converted%29.svg.png",
     ],
     independent: false,
   },
@@ -5902,7 +5902,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/vat.svg",
-      "https://restcountries.com/data/png/vat.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/1024px-Flag_of_the_Vatican_City.svg.png",
     ],
     independent: true,
   },
@@ -5949,7 +5949,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/hnd.svg",
-      "https://restcountries.com/data/png/hnd.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/1920px-Flag_of_Honduras.svg.png",
     ],
     regionalBlocs: [
       {
@@ -6005,7 +6005,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/hun.svg",
-      "https://restcountries.com/data/png/hun.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Hungary.png/800px-Flag_of_Hungary.png",
     ],
     regionalBlocs: [{ acronym: "EU", name: "European Union" }],
     cioc: "HUN",
@@ -9987,7 +9987,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/pse.svg",
-      "https://restcountries.com/data/png/pse.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/1920px-Flag_of_Palestine.svg.png",
     ],
     regionalBlocs: [
       {
@@ -10451,7 +10451,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/prt.svg",
-      "https://restcountries.com/data/png/prt.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/600px-Flag_of_Portugal.svg.png",
     ],
     regionalBlocs: [{ acronym: "EU", name: "European Union" }],
     cioc: "POR",
@@ -14408,7 +14408,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/wlf.svg",
-      "https://restcountries.com/data/png/wlf.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Wallis_and_Futuna.svg/1920px-Flag_of_Wallis_and_Futuna.svg.png",
     ],
     independent: false,
   },
@@ -14457,7 +14457,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/esh.svg",
-      "https://restcountries.com/data/png/esh.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg/1920px-Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg.png",
     ],
     regionalBlocs: [
       {
@@ -14517,7 +14517,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/yem.svg",
-      "https://restcountries.com/data/png/yem.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/1920px-Flag_of_Yemen.svg.png",
     ],
     regionalBlocs: [
       {
@@ -14576,7 +14576,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/zmb.svg",
-      "https://restcountries.com/data/png/zmb.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/1920px-Flag_of_Zambia.svg.png",
     ],
     regionalBlocs: [
       {
@@ -14649,7 +14649,7 @@ const API_DATA = [
     },
     flags: [
       "https://restcountries.com/data/zwe.svg",
-      "https://restcountries.com/data/png/zwe.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/1920px-Flag_of_Zimbabwe.svg.png",
     ],
     regionalBlocs: [
       {
@@ -14665,68 +14665,6 @@ const API_DATA = [
       },
     ],
     cioc: "ZIM",
-    independent: true,
-  },
-  {
-    name: "Palestine, State of",
-    topLevelDomain: [".ps"],
-    alpha2Code: "HK",
-    alpha3Code: "HKG",
-    callingCodes: ["970"],
-    capital: "Ramallah",
-    altSpellings: ["HK"],
-    region: "Western Asia",
-    continent: "Asia",
-    population: 5159076,
-    latlng: [31.9, 35.2],
-    demonym: "Palestinian",
-    gini: 35.5,
-    timezones: ["UTC+02:00"],
-    borders: ["CHN"],
-    nativeName: "فلسطين",
-    numericCode: "275",
-    currencies: [
-      { code: "EGP", name: "Egyptian pound", symbol: "E£" },
-      { code: "ILS", name: "Israeli new shekel", symbol: "₪" },
-      { code: "JOD", name: "Jordanian dinar", symbol: "د.أ" },
-    ],
-    languages: [
-      {
-        iso639_1: "ar",
-        iso639_2: "ara",
-        name: "Arabic",
-        nativeName: "العربية",
-      },
-    ],
-    translations: {
-      br: "Palestina",
-      pt: "Palestina",
-      nl: "Palestijnse gebieden",
-      hr: "Palestina",
-      fa: "فلسطین",
-      de: "Palästina",
-      es: "Palestina",
-      fr: "Palestine",
-      ja: "パレスチナ",
-      it: "Palestina",
-      hu: "Palesztina",
-    },
-    flags: [
-      "https://restcountries.com/data/pse.svg",
-      "https://restcountries.com/data/png/pse.png",
-    ],
-    regionalBlocs: [
-      {
-        acronym: "AL",
-        name: "Arab League",
-        otherNames: [
-          "جامعة الدول العربية",
-          "Jāmiʻat ad-Duwal al-ʻArabīyah",
-          "League of Arab States",
-        ],
-      },
-    ],
-    cioc: "PLE",
     independent: true,
   },
 ];
